@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <form th:action="login" th:object="${acc}">
+        <span value="Login"></span>
+        <lable>Phone</lable>
+        <input type="text" th:field="*{getPhone()}"
+    </form>
+</body>
+</html>
