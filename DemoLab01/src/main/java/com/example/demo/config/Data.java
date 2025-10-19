@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.config;
 
 import com.example.demo.model.entity.SonyAccount;
 import com.example.demo.model.entity.SonyCategory;
@@ -11,7 +11,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Configuration
